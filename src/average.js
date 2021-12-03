@@ -5,6 +5,14 @@
  */
 function average(scores) {
     // CODE HERE
+    var moyenne = 0;
+    var i = 0;
+    average = scores.length;
+    for (i<average){
+        moyenne= moyenne + scores[i++];
+    }
+    return moyenne / average;
+
 }
 
 export { average };

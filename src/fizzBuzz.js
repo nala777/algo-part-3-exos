@@ -9,6 +9,14 @@
  */
 function fizzBuzz(min, max) {
     // CODE HERE
+    var value = max - min ;
+    var i = 0;
+    var array=[];
+    fizzBuzz = value;
+    while (i<fizzBuzz){
+        array=[i++]
+        
+    return array;
 }
 
 export { fizzBuzz };
