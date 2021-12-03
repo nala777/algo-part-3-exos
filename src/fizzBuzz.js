@@ -9,14 +9,24 @@
  */
 function fizzBuzz(min, max) {
     // CODE HERE
-    var value = max - min ;
-    var i = 0;
-    var array=[];
-    fizzBuzz = value;
-    while (i<fizzBuzz){
-        array=[i++]
-        
+    var array = [];
+
+    for (let i = min; i < max; i++) {
+
+        if ((i % 3 == 0) && (i % 5 == 0)) {
+            array.push("FizzBuzz");
+        } else if (i % 3 == 0) {
+            array.push("Fizz");
+        } else if (i % 5 == 0) {
+            array.push("Buzz");
+
+        } else {
+            array.push(i);
+        }
+    }
     return array;
 }
 
-export { fizzBuzz };
+export {
+    fizzBuzz
+};

@@ -8,7 +8,7 @@ function average(scores) {
     var moyenne = 0;
     var i = 0;
     average = scores.length;
-    for (i<average){
+    while (i<average){
         moyenne= moyenne + scores[i++];
     }
     return moyenne / average;
